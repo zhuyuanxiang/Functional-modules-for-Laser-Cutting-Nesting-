@@ -1,4 +1,4 @@
-# 																											Modules for Laser Cutting
+# Modules for Laser Cutting
 
 ***To Install our Library, use this command:***  
  > pip install nestle-mynest  
@@ -31,23 +31,25 @@ Following are the modules to be added:
 a) Bottom-Left approach b) DJD Heuristic approach  
 
 __These are the images of nested shapes from the Drawing file(.DXF) as file source:__  
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/mega_shape_before nesting.PNG"><img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/mega_shape_after nesting.PNG">  
+![mega_shape_after_nesting](img/mega_shape_after_nesting.PNG)
 __Here are the images of nested shapes from the image as file source:__   
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/fun_nested.PNG" width="250" height="250"> <img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/nested_ganesh.PNG" width="250" height="250">    
+![fun_nested](img/fun_nested.PNG)
+
+
+
 __These are the images depicting contour detection in the cases of images given as inputs:__  
-<p align="center">
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/shapes_edge.png" width="500" height="300"> 
-</p>  
+![shapes_edge](img/shapes_edge.png)
+
 
 ### Flowchart for the modules created presently:  
  __1) Flow chart for extraction of coordinates and/or creation of shapes:__    
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/flow_chart.png">  
+![flow_chart](img/flow_chart.png)
+
 __2) Flow chart for nesting of the extracted coordinates from image as file source:__  
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/Flow_chart_2.png">  
+![Flow_chart_2](img/Flow_chart_2.png)
+
 __3) Flow Chart for Contour Detection from an image to extracting shape coordinates:__  
-<p align="center">
-<img src="https://github.com/KeepsakeAutomation/Nesting/blob/master/img/Flow_chart_3.png">  
- </p>
+![Flow_chart_3](img/Flow_chart_3.png)
 
 __NOTE:__ Following packages need to be installed for proper usage of this nesting module: 1. ezDXF 2. cv2 3. matplotlib 4.svglib 5.reportlab 6.math 7.time  
 
